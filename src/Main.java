@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap <String, String> phoneBook = new HashMap<>();
+        HashMap<String, String> phoneBook = new HashMap<>();
         phoneBook.put("Ivan Ivanov", "+7999-999-99-99");
         phoneBook.put("Ivan Petrov", "+7939-959-99-99");
         phoneBook.put("Sergei Ivanov", "+7699-994-99-99");
@@ -24,5 +24,9 @@ public class Main {
         phoneBook.put("Petr Ivanov", "+7999-799-99-99");
         phoneBook.put("Konstantin Ivanov", "+7995-999-99-99");
         System.out.println(phoneBook);
+
+
     }
+
+
 }
