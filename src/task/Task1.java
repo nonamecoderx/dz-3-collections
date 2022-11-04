@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-public class Task {
+public class Task1 {
     private static Map<String, Integer> random = new HashMap<>();
 
     public static void main(String[] args) {
@@ -12,10 +12,10 @@ public class Task {
         random.put("Stepan", 30);
         random.put("Nikolay", 129);
         System.out.println(random);
-        Task task = new Task();
-        task.addInCollection("Petr0", 10);
+        Task1 task1 = new Task1();
+        task1.addInCollection("Petr0", 10);
         System.out.println(random);
-        task.addInCollection("Petr", 30);
+        task1.addInCollection("Petr", 30);
         System.out.println(random);
 
 
@@ -40,4 +40,6 @@ public class Task {
             }
         }
     }
+
+
 }
